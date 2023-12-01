@@ -1,0 +1,21 @@
+html{
+    --bg-color:#010101;
+    --primary-color:#893283;
+    --text-color:#FFF;
+    --accent-color:#4e8745;
+    --title-color:#73ff75;
+}
+
+body{
+    margin:0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color);
+    color: var(--itle-color);
+}
+
